@@ -4,17 +4,69 @@
   --text: #83869a;
   --link: #f74780;
   --heading: #13183f;
+  --white: white;
   --xlFont: 3.5rem;
-  --lgFont:2.5rem ;
-  --mdFont:2rem
-  --smFont:1.5rem
-  --xlLineHeight: 4.375;
+  --lgFont: 2.5rem;
+  --mdFont: 2rem;
+  --smFont: 1.5rem;
+  --bodyMFont: 1.1rem;
+  --bodySFont: 1rem;
+  --xlLineHeight: 4.375rem;
   --medLineHeight: 2rem;
-  --smallLineHeight:1.5rem;
+  --smallLineHeight: 1.5rem;
   --textLineHeight: 1.75rem;
+}
 
+/* general styles */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  padding: 1rem;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: var(--smFont);
+  line-height: var(--medLineHeight);
+  color: var(--heading);
+}
+.button {
+  font-weight: 700;
+  border-radius: 28px;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  color: white;
+  background-color: var(--heading);
 }
 
 img {
   max-width: 100%;
+}
+
+/* header styles */
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-weight: 800;
+  font-size: var(--lgFont);
+  line-height: 50px;
+  color: var(--heading);
+  margin: 2.5rem 0 1.5rem 0;
 }
