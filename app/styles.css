@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&display=swap');
+
+:root {
+  --text: #83869a;
+  --link: #f74780;
+  --heading: #13183f;
+  --xlFont: 3.5rem;
+  --lgFont:2.5rem ;
+  --mdFont:2rem
+  --smFont:1.5rem
+  --xlLineHeight: 4.375;
+  --medLineHeight: 2rem;
+  --smallLineHeight:1.5rem;
+  --textLineHeight: 1.75rem;
+
+}
+
 img {
   max-width: 100%;
 }
