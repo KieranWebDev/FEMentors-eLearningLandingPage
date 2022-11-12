@@ -12,32 +12,45 @@
 </head>
 
 <body>
+
+  <nav>
+    <h3 class="logo logo-nav">Skilled</h3>
+    <button class="button button-1"><a href="#">Get Started</a></button>
+  </nav>
+
   <header>
-    <nav>
-      <h3 class="logo logo-nav">Skilled</h3>
-      <button class="button button-1">Get Started</button>
-    </nav>
-    <h1>Maximize skill, minimize budget</h1>
-    <p>Our modern courses across a range of in-demand skills will give you the
-      knowledge you need to live the life you want.</p>
-  </header>
-
-  <picture>
-
-
-    <source media="(min-width:960px)"
-      srcset=" ./assets/image-hero-desktop.webp 1046w,
+    <div class="intro-text">
+      <h1>Maximize skill, minimize budget</h1>
+      <p>Our modern courses across a range of in-demand skills will give you the
+        knowledge you need to live the life you want.</p>
+      <button class="button button-2"><a href="#">Get Started</a></button>
+    </div>
+    <picture>
+      <source media="(min-width:960px)"
+        srcset=" ./assets/image-hero-desktop.webp 1046w,
     ./assets/image-hero-desktop@2x.webp 2092w, ./assets/image-hero-desktop@2x.png 2092w, ./assets/image-hero-desktop.png 1046w ">
 
-    <source media="(min-width:600px)"
-      srcset=" ./assets/image-hero-tablet.webp 695w, 
+      <source media="(min-width:600px)"
+        srcset=" ./assets/image-hero-tablet.webp 695w, 
     ./assets/image-hero-tablet@2x.webp 1390w, ./assets/image-hero-tablet@2x.png 1390w, ./assets/image-hero-tablet.png 695w ">
 
-    <source media="(min-width:100px)"
-      srcset="./assets/image-hero-mobile.webp 435w, ./assets/image-hero-mobile@2x.webp 870w, ./assets/image-hero-mobile@2x.png 840px, ./assets/image-hero-mobile.png 840px">
+      <source media="(min-width:100px)"
+        srcset="./assets/image-hero-mobile.webp 435w, ./assets/image-hero-mobile@2x.webp 870w, ./assets/image-hero-mobile@2x.png 840px, ./assets/image-hero-mobile.png 840px">
 
-    <img src="./assets/image-hero-mobile.webp 435w" alt="hero-img" />
-  </picture>
+      <img src="./assets/image-hero-mobile.webp 435w" alt="hero-img" />
+    </picture>
+  </header>
+  <main class="main-flex-container">
+    <div class="sub-heading-box">
+      <h2>Check out our most popular courses!</h2>
+    </div>
+    <div class="topic-box">
+      <h3>Animation</h3>
+      <p>Learn the latest animation techniques to create stunning motion
+        design and captivate your audience.</p>
+      <a href="#" class="topic-box-link">Get Started</a>
+    </div>
+  </main>
 
   Get Started
 

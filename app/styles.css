@@ -5,16 +5,18 @@
   --link: #f74780;
   --heading: #13183f;
   --white: white;
-  --xlFont: 3.5rem;
-  --lgFont: 2.5rem;
-  --mdFont: 2rem;
-  --smFont: 1.5rem;
-  --bodyMFont: 1.1rem;
-  --bodySFont: 1rem;
-  --xlLineHeight: 4.375rem;
-  --medLineHeight: 2rem;
-  --smallLineHeight: 1.5rem;
-  --textLineHeight: 1.75rem;
+  --lightBlue: #666ca3;
+  --xlFont: 3.5rem; /* 56px */
+  --lgFont: 2.5rem; /* 51px */
+  --mdFont: 2rem; /* 32px */
+  --smFont: 1.5rem; /* 24px */
+  --bodyMFont: 1.1rem; /* 56px */
+  --bodySFont: 1rem; /* 16px */
+  --xlLineHeight: 4.375rem; /* 70px */
+  --lgLineHeight: 3.2rem; /* 51px */
+  --medLineHeight: 2.5rem; /* 28px */
+  --smallLineHeight: 1.5rem; /* 24px */
+  --textLineHeight: 1.75rem; /* 28px */
 }
 
 /* general styles */
@@ -43,30 +45,86 @@ body {
   line-height: var(--medLineHeight);
   color: var(--heading);
 }
-.button {
-  font-weight: 700;
-  border-radius: 28px;
-  padding: 0.6rem 1.5rem;
-  border: none;
-  color: white;
-  background-color: var(--heading);
+
+p {
+  font-weight: 500;
+  line-height: var(--smallLineHeight);
+  color: var(--text);
+  margin-bottom: 1.5rem;
 }
 
 img {
   max-width: 100%;
 }
 
+/* buttons */
+
+.button {
+  font-weight: 700;
+  border-radius: 28px;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  /* line-height: var(--medLineHeight); */
+}
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.button-1 {
+  background-color: var(--heading);
+}
+
+.button-1:hover {
+  background-color: var(--lightBlue);
+}
+
+.button-2 {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  padding: 1rem 2.2rem;
+  margin-bottom: 1.7rem;
+}
+
 /* header styles */
 
-header nav {
+nav {
   display: flex;
   justify-content: space-between;
 }
 
-header h1 {
+.intro-text h1 {
   font-weight: 800;
   font-size: var(--lgFont);
-  line-height: 50px;
+  line-height: var(--lgLineHeight);
   color: var(--heading);
   margin: 2.5rem 0 1.5rem 0;
 }
+picture {
+  margin-bottom: 4.125rem;
+}
+
+/* main section  */
+.main-flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.sub-heading-box {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  padding: 1.5rem 1.8125rem 2rem 1.75rem;
+  font-size: var(--smFont);
+  border-radius: 10px;
+}
+.sub-heading-box h2 {
+  font-size: var(--smFont);
+  color: var(--white);
+}
+.topic-box {
+  flex-basis: 100%;
+  min-height: 260px;
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+  border-radius: 10px;
+  background-color: var(--lightBlue);
+}
+
+/* .topic-box */
