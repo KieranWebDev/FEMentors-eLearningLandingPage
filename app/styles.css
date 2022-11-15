@@ -245,6 +245,7 @@ footer {
   .sub-heading-box {
     min-height: 250px;
     padding-top: 4rem;
+    padding-left: ;
   }
   .topic-box,
   .sub-heading-box {
@@ -301,7 +302,7 @@ footer {
     position: absolute;
     height: 990px;
     width: 935px;
-    right: -320px;
+    right: -330px;
     top: -150px;
   }
 
@@ -321,7 +322,7 @@ footer {
     padding: 2.5rem 4rem;
   }
   .sub-heading-box {
-    padding-top: 4rem;
+    padding-left: 1.8rem;
   }
   .sub-heading-box h2 {
     font-size: var(--mdFont);
@@ -337,6 +338,19 @@ footer {
   }
   .logo-footer {
     font-size: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav {
+    width: 85%;
+  }
+  picture {
+    position: absolute;
+    height: 990px;
+    width: 935px;
+    right: -300px;
+    top: -150px;
   }
 }
 
