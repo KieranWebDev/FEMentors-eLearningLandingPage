@@ -223,7 +223,7 @@ footer {
     margin-left: 2.4375rem;
     overflow: hidden;
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
   }
   .intro-text {
     max-width: 45%;
@@ -284,6 +284,7 @@ footer {
 
   .header-flex-container {
     margin-left: 10.3125rem;
+    margin-bottom: 80px;
   }
 
   .intro-text {
