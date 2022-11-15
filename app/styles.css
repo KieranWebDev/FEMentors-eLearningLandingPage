@@ -83,7 +83,6 @@ img {
 .button-2 {
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
   padding: 1rem 2.2rem;
-  margin-bottom: 1.7rem;
 }
 .button-2:hover {
   background: linear-gradient(
@@ -224,6 +223,7 @@ footer {
     margin-left: 2.4375rem;
     overflow: hidden;
     position: relative;
+    margin-bottom: 100px;
   }
   .intro-text {
     max-width: 45%;
@@ -312,8 +312,9 @@ footer {
   /* main course section */
 
   .main-flex-container {
-    margin: 0 10.3125rem;
+    margin: 0 3.4375rem;
     gap: 1%;
+    padding: 0;
   }
 
   .topic-box,
@@ -323,6 +324,7 @@ footer {
     justify-content: space-between;
     min-height: 322px;
     padding: 2.5rem 4rem;
+    flex-basis: 31%;
   }
   .sub-heading-box {
     padding-left: 1.8rem;
@@ -358,16 +360,16 @@ footer {
 }
 
 @media (min-width: 1300px) {
-  .main-flex-container {
+  /* .main-flex-container {
     margin: 0 10.3125rem;
     padding: 0;
-  }
+  } */
   .intro-text {
     margin: 150px 0 165px 0;
   }
 
-  .topic-box,
+  /* .topic-box,
   .sub-heading-box {
     flex-basis: 31.5%;
-  }
+  } */
 }
