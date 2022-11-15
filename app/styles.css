@@ -69,6 +69,7 @@ img {
   padding: 0.6rem 1.5rem;
   border: none;
   padding: 0.85rem 1.5rem;
+  cursor: pointer;
   /* line-height: var(--medLineHeight); */
 }
 .button a {
@@ -76,14 +77,18 @@ img {
   text-decoration: none;
   font-size: 1rem;
   font-weight: 700;
+  display: block;
+  width: 100%;
 }
 
 .button-1 {
   background-color: var(--heading);
+  z-index: 5;
 }
 
 .button-1:hover {
   background-color: var(--lightBlue);
+  cursor: pointer;
 }
 
 .button-2 {
@@ -92,10 +97,26 @@ img {
   margin-bottom: 1.7rem;
 }
 .button-2:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  cursor: pointer;
 }
 
 .button-3 {
   background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+}
+
+.button-3:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
 }
 
 /* nav  and header styles */
@@ -162,6 +183,9 @@ picture {
   font-size: var(--link);
   text-decoration: none;
 }
+.topic-box a:hover {
+  color: #ffa7c3;
+}
 .topic-box-icon {
   position: absolute;
   top: -25px;
@@ -187,13 +211,14 @@ footer {
 
 @media (min-width: 650px) {
   .header-and-main-container {
-    max-width: 850px;
+    max-width: 1050px;
     padding: 0;
   }
   nav {
     padding: 0;
     width: 92%;
     margin-top: 1.5rem;
+    z-index: 50;
   }
 
   .main-flex-container {
@@ -235,7 +260,7 @@ footer {
     width: 640px;
     right: -260px;
     top: -90px;
-    z-index: 30;
+    /* z-index: 30; */
   }
 }
 
