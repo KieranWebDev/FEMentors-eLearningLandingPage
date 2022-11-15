@@ -39,6 +39,9 @@ body,
 a {
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
+body {
+  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+}
 
 p {
   font-weight: 500;
