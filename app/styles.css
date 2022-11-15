@@ -32,7 +32,8 @@ html {
   padding: 0;
 }
 
-body {
+body,
+a {
   font-family: 'Plus Jakarta Sans', sans-serif;
   /* margin: 0 auto; */
 }
@@ -137,7 +138,7 @@ picture {
   min-height: 250px;
   box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
   border-radius: 10px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 2rem 1.75rem;
   position: relative;
 }
@@ -184,17 +185,21 @@ footer {
 
 /* .topic-box */
 
-@media (min-width: 600px) {
+@media (min-width: 650px) {
   .header-and-main-container {
-    max-width: 840px;
-    padding: 2.4375rem;
+    max-width: 850px;
+    padding: 0;
+  }
+  nav {
+    padding: 0;
+    width: 92%;
   }
 
   .main-flex-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 0.5rem;
   }
   .sub-heading-box {
@@ -202,64 +207,121 @@ footer {
   }
   .topic-box,
   .sub-heading-box {
-    flex-basis: 47%;
+    flex-basis: 49%;
     margin-bottom: 3.5rem;
+  }
+  .main-flex-container {
+    padding: 0 2.4375rem;
   }
   /* picture  */
 
   .header-flex-container {
-    padding-bottom: 100px;
-    padding-top: 60px;
+    margin-left: 2.4375rem;
+    margin-top: 1.5rem;
     overflow: hidden;
     position: relative;
   }
   .intro-text {
     min-width: 45%;
     max-width: 45%;
+    margin: 100px 0 135px 0;
   }
   picture {
     position: absolute;
-    height: 700px;
-    width: 600px;
-    right: -250px;
-    top: -100px;
+    height: 640px;
+    width: 640px;
+    right: -260px;
+    top: -90px;
+    z-index: 30;
   }
 }
 
-@media (min-width: 850px) {
+@media (min-width: 1050px) {
   .header-and-main-container {
-    max-width: 1044px;
-    padding: 2.4375rem;
+    max-width: 1440px;
+    /* padding: 2.4375rem; */
   }
+
+  p,
+  .topic-box a,
+  button {
+    font-size: var(--bodyMFont);
+  }
+  .logo-nav {
+    font-size: 2.25rem;
+  }
+  nav {
+    padding: 0;
+    width: 88%;
+  }
+
+  .main-flex-container {
+    margin: 0 10.3125rem;
+    gap: 1%;
+    padding: 0;
+  }
+
   .topic-box,
   .sub-heading-box {
-    flex-basis: 31%;
+    flex-basis: 31.5%;
     margin-bottom: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sub-heading-box {
+    padding-top: 4rem;
+  }
+  .sub-heading-box h2 {
+    font-size: var(--mdFont);
+  }
+  .topic-box h3 {
+    font-size: var(--smFont);
   }
 
   .header-flex-container {
-    padding-bottom: 300px;
-    padding-top: 180px;
+    margin-left: 10.3125rem;
+    margin-top: 1.5rem;
+    overflow: hidden;
+    position: relative;
   }
 
   .intro-text {
-    min-width: 45%;
-    max-width: 45%;
+    width: 55%;
+
+    margin: 150px 0 120px 0;
   }
+
+  .intro-text p {
+    max-width: 70%;
+    margin-bottom: 2.5rem;
+  }
+  .intro-text h1 {
+    font-size: var(--xlFont);
+    margin-bottom: 1.8125rem;
+    line-height: 71px;
+  }
+
   picture {
     position: absolute;
-    height: 900px;
-    width: 800px;
-    right: -250px;
-    top: -70px;
+    height: 990px;
+    width: 935px;
+    right: -320px;
+    top: -150px;
+  }
+  footer {
+    padding: 2.3125rem 10.3125rem;
+  }
+  .logo-footer {
+    font-size: 2rem;
   }
 }
-@media (min-width: 960px) {
-  picture {
-    position: absolute;
-    height: 1000px;
-    width: 900px;
-    right: -300px;
-    top: -70px;
+@media (min-width: 1300px) {
+  .main-flex-container {
+    margin: 0 10.3125rem;
+    padding: 0;
+  }
+  .intro-text {
+    margin: 150px 0 165px 0;
   }
 }
