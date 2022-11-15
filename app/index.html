@@ -27,16 +27,33 @@
       </div>
 
       <picture>
-        <source media="(min-width:1050px)"
+
+        <!-- I think this is explicitly telling th browser what to load at each min width. ie. try this, if not compatible, then try this...  -->
+
+        <source media="(min-width:1050px)" srcset=" ./assets/image-hero-desktop@2x.webp 2x" type="image/webp">
+        <source media="(min-width:1050px)" srcset=" ./assets/image-hero-desktop.webp" type="image/webp">
+        <source media="(min-width:1050px)" srcset="  ./assets/image-hero-desktop.png">
+
+        <source media="(min-width:650px)" srcset=" ./assets/image-hero-tablet@2x.webp 2x" type="image/webp">
+        <source media="(min-width:650px)" srcset=" ./assets/image-hero-tablet.webp" type="image/webp">
+        <source media="(min-width:650px)" srcset=" ./assets/image-hero-tablet.png ">
+
+        <source media="(min-width:100px)" srcset="./assets/image-hero-mobile@2x.webp 2x " type="image/webp">
+        <source media="(min-width:100px)" srcset="./assets/image-hero-mobile.webp" type="image/webp">
+        <source media="(min-width:100px)" srcset="./assets/image-hero-mobile.png">
+
+
+        <!-- I think the code below is another way to do do above, but less explicit. I think the browser decides what load. you write the width of the images in the srcset eg '1046w' and the browser decides the best image to load based on compatibility and screen width. need to research more.  -->
+        <!-- <source media="(min-width:1050px)"
           srcset=" ./assets/image-hero-desktop.webp 1046w,
     ./assets/image-hero-desktop@2x.webp 2092w, ./assets/image-hero-desktop@2x.png 2092w, ./assets/image-hero-desktop.png 1046w ">
-
+      
         <source media="(min-width:650px)"
           srcset=" ./assets/image-hero-tablet.webp 695w, 
     ./assets/image-hero-tablet@2x.webp 1390w, ./assets/image-hero-tablet@2x.png 1390w, ./assets/image-hero-tablet.png 695w ">
 
         <source media="(min-width:100px)"
-          srcset="./assets/image-hero-mobile.webp 435w, ./assets/image-hero-mobile@2x.webp 870w, ./assets/image-hero-mobile@2x.png 840w, ./assets/image-hero-mobile.png 840w">
+          srcset="./assets/image-hero-mobile.webp 435w, ./assets/image-hero-mobile@2x.webp 870w, ./assets/image-hero-mobile@2x.png 840w, ./assets/image-hero-mobile.png 840w"> -->
 
         <img src="./assets/image-hero-mobile.webp 435w" alt="hero-img" />
       </picture>
