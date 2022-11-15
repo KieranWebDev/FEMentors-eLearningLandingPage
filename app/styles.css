@@ -143,6 +143,7 @@ picture {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  margin-bottom: 5rem;
 }
 .sub-heading-box {
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
@@ -211,6 +212,7 @@ footer {
   .header-and-main-container {
     max-width: 1050px;
     padding: 0;
+    margin-bottom: 80px;
   }
   /* nav and header */
   nav {
@@ -223,7 +225,6 @@ footer {
     margin-left: 2.4375rem;
     overflow: hidden;
     position: relative;
-    margin-bottom: 40px;
   }
   .intro-text {
     max-width: 45%;
