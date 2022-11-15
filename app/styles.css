@@ -59,13 +59,13 @@ img {
   padding: 0.85rem 1.5rem;
   cursor: pointer;
 }
-.button a {
+.button {
   color: var(--white);
   text-decoration: none;
   font-size: 1rem;
   font-weight: 700;
-  display: block;
-  width: 100%;
+  /* display: block; */
+  /* width: 100%; */
 }
 
 .button-1 {
