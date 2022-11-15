@@ -203,8 +203,10 @@ footer {
     justify-content: space-between;
     gap: 0.5rem;
   }
+
   .sub-heading-box {
     min-height: 250px;
+    padding-top: 4rem;
   }
   .topic-box,
   .sub-heading-box {
@@ -264,11 +266,13 @@ footer {
 
   .topic-box,
   .sub-heading-box {
-    flex-basis: 31.5%;
+    /* flex-basis: 31.5%; */
     margin-bottom: 3.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 322px;
+    padding: 2.5rem 4rem;
   }
   .sub-heading-box {
     padding-top: 4rem;
@@ -324,5 +328,9 @@ footer {
   }
   .intro-text {
     margin: 150px 0 165px 0;
+  }
+  .topic-box,
+  .sub-heading-box {
+    flex-basis: 31.5%;
   }
 }
