@@ -29,11 +29,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/2022-11-10%2008_52_30-Frontend%20Mentor%20_%20Product%20preview%20card%20component.png)
+![](./2022-11-15%2014_40_55-Skilled%20e-learning%20landing%20page.png)
 
 ### Links
 
-- [Live Site](https://kieranwebdev.github.io/FEMentors-preview-card-project/)
+- [Live Site](https://kieran-gill-e-learning-landing-page.vercel.app/)
 
 ## My process
 
@@ -46,11 +46,13 @@ Users should be able to:
 
 ### What I learned
 
-- My first challenge using the Figma design files as a reference. It really helped to improve the accuracy of my completed component.
+- This was my first time using the picture element as well as srcset. This allowed me to display different images based on the websites screensize. A very useful feature, and one I will be sure to use again!
 
-- A good opportunity to brush up on the fundamentals and get some practice with responsive design and building using mobile-first design
+- I had some trouble getting the main hero image to play nice and position itself correctly. but some googling and stack overflow came to the rescue. I learned about and got some practice with using relative positioning.
 
-- I had some trouble getting the background color on the image to closely match the design spec. I’m looking forward to seeing how others handled this challenge once I submit my solution.
+- I used the mobile first approach and am starting to feel much more confident building using this approach.
+
+- I tried to use CSS variables as much as possible, but I am not sure if I am using them correctly or at least following best practice. I will read up about it more and ask the community for feedback before beginning the next project.
 
 ### Continued development
 
@@ -58,7 +60,10 @@ I plan to revisit this challenge and rebuild it with react and tailwind CSS
 
 ### Useful resources
 
-- [Get rid of that small space under your images](https://www.youtube.com/watch?v=plOl7TNc89A&t=244s) - This helped me with the CSS on the main image.
+- Kevin Powells youtube videos on the picture element and srcsets were very useful for this challenge.
+- [The HTML picture element explained [ Images on the web part 3 ]](https://www.youtube.com/watch?v=Rik3gHT24AM&t=801s) - This helped me with the CSS on the main image.
+
+- [srcset and sizes attributes - [ images on the web | part one ]](https://www.youtube.com/watch?v=2QYpkrX2N48&t=7s) - This helped me with the CSS on the main image.
 
 ## Author
 
