@@ -54,6 +54,8 @@ Users should be able to:
 
 - I tried to use CSS variables as much as possible, but I am not sure if I am using them correctly or at least following best practice. I will read up about it more and ask the community for feedback before beginning the next project.
 
+- I had some trouble with adjusting flexbox settings and began to question everything I know about flexbox, media queries and life before I realized I was missing one curly brace in my css file.
+
 ### Continued development
 
 I plan to revisit this challenge and rebuild it with react and tailwind CSS
