@@ -134,11 +134,9 @@ nav {
   color: var(--heading);
   margin: 2.5rem 0 1.5rem 0;
 }
-
 .intro-text p {
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
 }
-
 picture {
   margin-bottom: 4.125rem;
 }
@@ -155,6 +153,7 @@ picture {
   padding: 1.5rem 1.8125rem 2rem 1.75rem;
   font-size: var(--smFont);
   border-radius: 10px;
+  max-width: 350px;
 }
 .sub-heading-box h2 {
   font-size: var(--smFont);
@@ -163,6 +162,7 @@ picture {
 .topic-box {
   flex-basis: 100%;
   min-height: 250px;
+  max-width: 350px;
   box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
   border-radius: 10px;
   padding: 2rem 1.75rem;
@@ -248,7 +248,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 0.5rem;
   }
 
@@ -331,7 +331,7 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     min-height: 322px;
-    padding: 2.5rem 4rem;
+    padding: 2.5rem 2rem;
     flex-basis: 31%;
   }
   .sub-heading-box {
