@@ -59,7 +59,7 @@ img {
   font-weight: 700;
   border-radius: 28px;
   border: none;
-  padding: 0.85rem 1.5rem;
+  padding: 0.7rem 1.5rem;
   cursor: pointer;
 }
 .button {
@@ -345,7 +345,7 @@ footer {
   }
 
   .sub-heading-box {
-    padding-left: 1.8rem;
+    padding-top: 2rem;
   }
   .sub-heading-box h2 {
     font-size: var(--mdFont);
