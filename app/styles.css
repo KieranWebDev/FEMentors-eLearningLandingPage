@@ -134,6 +134,11 @@ nav {
   color: var(--heading);
   margin: 2.5rem 0 1.5rem 0;
 }
+
+.intro-text p {
+  padding-bottom: 2rem;
+}
+
 picture {
   margin-bottom: 4.125rem;
 }
