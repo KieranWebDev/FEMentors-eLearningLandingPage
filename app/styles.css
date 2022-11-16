@@ -59,7 +59,7 @@ img {
   font-weight: 700;
   border-radius: 28px;
   border: none;
-  padding: 0.7rem 1.5rem;
+  padding: 1rem 1.5rem;
   cursor: pointer;
 }
 .button {
@@ -82,7 +82,7 @@ img {
 
 .button-2 {
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
-  padding: 1rem 2.2rem;
+  padding: 1.2rem 2.2rem;
 }
 .button-2:hover {
   background: linear-gradient(
