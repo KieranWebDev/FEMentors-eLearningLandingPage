@@ -162,6 +162,7 @@ picture {
   border-radius: 10px;
   padding: 2rem 1.75rem;
   position: relative;
+  background-color: var(--white);
 }
 .topic-box h3 {
   font-size: var(--bodySFont);
